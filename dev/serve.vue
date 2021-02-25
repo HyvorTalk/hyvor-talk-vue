@@ -1,20 +1,18 @@
 <script>
-import { defineComponent } from 'vue';
 // Uncomment import and local "components" registration if library is not registered globally.
-//import { Embed } from  '@/entry.esm';
-//import { CommentCount } from  '@/entry.esm';
+import { Embed } from  '@/entry.esm';
+import { CommentCount } from  '@/entry.esm';
 
-export default defineComponent({
-  name: 'ServeDev',
-  components: {
-  //  Embed
-  //CommentCount
-  }
-});
+const HyvorTalk = {
+  Embed,
+  CommentCount
+}
+
+export default HyvorTalk
 </script>
 
 <template>
   <div id="app">
-    <Embed website-id='3257' id="14"></Embed>
+    <Embed website-id='3257' id="14" />
   </div>
 </template>
