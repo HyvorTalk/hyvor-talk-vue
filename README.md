@@ -20,7 +20,7 @@ This library includes two [Components](https://v3.vuejs.org/guide/component-basi
 # Example
 
 ```vue
-import HyvorTalk from 'hyvor-talk-vue'
+import {CommentCount, Embed} from 'hyvor-talk-vue'
 
 <template>
   <div>
@@ -68,9 +68,6 @@ Attributes:
 * `websiteId`
 * `id` - ID of the webpage (should be the same used to load comments)
 * `mode` - (string) (optional) Use `mode="number"` to display only the number of comments.
-
-
-Here's a simple [live demo](https://hyvortalk.github.io/hyvor-talk-vue/)
 
 ## License
 
