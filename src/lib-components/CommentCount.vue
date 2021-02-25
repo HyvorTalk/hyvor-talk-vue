@@ -28,5 +28,5 @@ export default /*#__PURE__*/defineComponent({
 </script>
 
 <template>
-    <span :data-talk-id="id" :mode="mode" />
+    <span :data-talk-id="id" :data-talk-mode="mode" />
 </template>
