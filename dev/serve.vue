@@ -10,9 +10,3 @@ const HyvorTalk = {
 
 export default HyvorTalk
 </script>
-
-<template>
-  <div id="app">
-    <Embed website-id='3257' id="14" />
-  </div>
-</template>
